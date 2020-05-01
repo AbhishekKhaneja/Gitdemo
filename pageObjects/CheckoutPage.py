@@ -24,3 +24,8 @@ class CheckOutPage:
         self.driver.find_element(*CheckOutPage.checkOut).click()
         confirmPage = ConfirmPage(self.driver)
         return confirmPage
+
+    def checkOutItems1(self):
+        self.driver.find_element(*CheckOutPage.checkOut).click()
+        confirmPage1 = ConfirmPage(self.driver)
+        return confirmPage1
